@@ -31,7 +31,7 @@ try:
     time.sleep(10)
 
     # Verifica se um link específico está presente nos resultados
-    link_esperado = "https://ifpr.edu.br/uniao-da-vitoria/inscricoes-abertas-para-as-oficinas-e-palestras-do-7o-entec/"
+    link_esperado = "https://ifpr.edu.br/uniao-da-vitoria/vem-ai-a-9a-edicao-do-entec/"
     resultados = driver.find_elements(By.CSS_SELECTOR, "a")
 
     # Procura pelo link nos resultados
